@@ -42,7 +42,9 @@ void writeTask(){
 }
 
 int main () {
-	readTask();
-	writeTask();
-	main();
+	
+	while(true){
+		readTask();
+		writeTask();
+	}
 }
