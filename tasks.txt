@@ -1,0 +1,3 @@
+Router -> Methods should not be accessible for public.
+support HTTP methods. The router must know about GET , POST, PUT, PATCH, ... 
+apiController -> The parameters GET(limit, offset) should not be negative numbers.
